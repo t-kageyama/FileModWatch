@@ -1,0 +1,51 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+*/Debug/
+*/Release/
+*/x64/
+*/x86/
+
+# MSBuild / Intermediate
+ipch/
+*.ipch
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.pch
+*.tlog
+*.log
+*.lastbuildstate
+*.aps
+*.opendb
+
+# CMake (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+
+# NuGet (if any)
+packages/
+
+# Outputs
+*.exe
+*.dll
+*.lib
+
+# OS auto generates
+.DS_Store
+Thumbs.db
